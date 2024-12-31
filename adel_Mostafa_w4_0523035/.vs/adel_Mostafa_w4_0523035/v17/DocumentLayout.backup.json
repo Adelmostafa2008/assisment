@@ -1,12 +1,105 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\adel.saber\\Desktop\\adel_Mostafa_w4_0523035\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\adel.saber\\Desktop\\git\\adel_Mostafa_w4_0523035\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1800F729-7868-46DC-9050-4DF116E59432}|adel_Mostafa_w4_0523035.csproj|c:\\users\\adel.saber\\desktop\\git\\adel_mostafa_w4_0523035\\views\\teammember\\detailss.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1800F729-7868-46DC-9050-4DF116E59432}|adel_Mostafa_w4_0523035.csproj|solutionrelative:views\\teammember\\detailss.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1800F729-7868-46DC-9050-4DF116E59432}|adel_Mostafa_w4_0523035.csproj|c:\\users\\adel.saber\\desktop\\git\\adel_mostafa_w4_0523035\\views\\project\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1800F729-7868-46DC-9050-4DF116E59432}|adel_Mostafa_w4_0523035.csproj|solutionrelative:views\\project\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1800F729-7868-46DC-9050-4DF116E59432}|adel_Mostafa_w4_0523035.csproj|c:\\users\\adel.saber\\desktop\\git\\adel_mostafa_w4_0523035\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1800F729-7868-46DC-9050-4DF116E59432}|adel_Mostafa_w4_0523035.csproj|solutionrelative:controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1800F729-7868-46DC-9050-4DF116E59432}|adel_Mostafa_w4_0523035.csproj|c:\\users\\adel.saber\\desktop\\git\\adel_mostafa_w4_0523035\\views\\teammember\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1800F729-7868-46DC-9050-4DF116E59432}|adel_Mostafa_w4_0523035.csproj|solutionrelative:views\\teammember\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1800F729-7868-46DC-9050-4DF116E59432}|adel_Mostafa_w4_0523035.csproj|c:\\users\\adel.saber\\desktop\\git\\adel_mostafa_w4_0523035\\controllers\\teammembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1800F729-7868-46DC-9050-4DF116E59432}|adel_Mostafa_w4_0523035.csproj|solutionrelative:controllers\\teammembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "detailss.cshtml",
+              "DocumentMoniker": "C:\\Users\\adel.saber\\Desktop\\git\\adel_Mostafa_w4_0523035\\Views\\TeamMember\\detailss.cshtml",
+              "RelativeDocumentMoniker": "Views\\TeamMember\\detailss.cshtml",
+              "ToolTip": "C:\\Users\\adel.saber\\Desktop\\git\\adel_Mostafa_w4_0523035\\Views\\TeamMember\\detailss.cshtml",
+              "RelativeToolTip": "Views\\TeamMember\\detailss.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T08:17:38.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "details.cshtml",
+              "DocumentMoniker": "C:\\Users\\adel.saber\\Desktop\\git\\adel_Mostafa_w4_0523035\\Views\\Project\\details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Project\\details.cshtml",
+              "ToolTip": "C:\\Users\\adel.saber\\Desktop\\git\\adel_Mostafa_w4_0523035\\Views\\Project\\details.cshtml",
+              "RelativeToolTip": "Views\\Project\\details.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T08:17:18.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TeamMemberController.cs",
+              "DocumentMoniker": "C:\\Users\\adel.saber\\Desktop\\git\\adel_Mostafa_w4_0523035\\Controllers\\TeamMemberController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeamMemberController.cs",
+              "ToolTip": "C:\\Users\\adel.saber\\Desktop\\git\\adel_Mostafa_w4_0523035\\Controllers\\TeamMemberController.cs",
+              "RelativeToolTip": "Controllers\\TeamMemberController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAqwDAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T08:13:36.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\adel.saber\\Desktop\\git\\adel_Mostafa_w4_0523035\\Views\\TeamMember\\edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\TeamMember\\edit.cshtml",
+              "ToolTip": "C:\\Users\\adel.saber\\Desktop\\git\\adel_Mostafa_w4_0523035\\Views\\TeamMember\\edit.cshtml",
+              "RelativeToolTip": "Views\\TeamMember\\edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T08:14:28.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "C:\\Users\\adel.saber\\Desktop\\git\\adel_Mostafa_w4_0523035\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProjectController.cs",
+              "ToolTip": "C:\\Users\\adel.saber\\Desktop\\git\\adel_Mostafa_w4_0523035\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "Controllers\\ProjectController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T07:57:25.376Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

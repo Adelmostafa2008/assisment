@@ -41,5 +41,12 @@ namespace adel_Mostafa_w4_0523035.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction("getall");
         }
+        public async Task<IActionResult> delete (int id)
+        {
+            var x = _context.teamMembers.FirstOrDefault(x => x.Id == id);
+            _context.teamMembers.Remove(x);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("getall", "Project");
+        }
     }
 }

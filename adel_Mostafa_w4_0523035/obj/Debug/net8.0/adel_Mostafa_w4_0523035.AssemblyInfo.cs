@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("adel_Mostafa_w4_0523035")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54f16a13771f59b422876a5d67ab330591b425a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("adel_Mostafa_w4_0523035")]
 [assembly: System.Reflection.AssemblyTitleAttribute("adel_Mostafa_w4_0523035")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

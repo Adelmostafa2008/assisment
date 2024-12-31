@@ -7794,11 +7794,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adel.saber\\Desktop\\adel_Mostafa_w4_0523035\\adel_Mostafa_w4_0523035.csproj",
+      "projectUniqueName": "C:\\Users\\adel.saber\\Desktop\\git\\adel_Mostafa_w4_0523035\\adel_Mostafa_w4_0523035.csproj",
       "projectName": "adel_Mostafa_w4_0523035",
-      "projectPath": "C:\\Users\\adel.saber\\Desktop\\adel_Mostafa_w4_0523035\\adel_Mostafa_w4_0523035.csproj",
+      "projectPath": "C:\\Users\\adel.saber\\Desktop\\git\\adel_Mostafa_w4_0523035\\adel_Mostafa_w4_0523035.csproj",
       "packagesPath": "C:\\Users\\adel.saber\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adel.saber\\Desktop\\adel_Mostafa_w4_0523035\\obj\\",
+      "outputPath": "C:\\Users\\adel.saber\\Desktop\\git\\adel_Mostafa_w4_0523035\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\adel.saber\\AppData\\Roaming\\NuGet\\NuGet.Config",
