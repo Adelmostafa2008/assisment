@@ -1,0 +1,69 @@
+﻿@model adel_Mostafa_w4_0523035.ViewModels.proteam
+
+@{
+    ViewData["Title"] = "edit";
+}
+
+<h1>edit</h1>
+
+<h4>Tasks</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="edit" asp-route-id="@Model.tasks.Id">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="tasks.Title" class="control-label"></label>
+                <input asp-for="tasks.Title" class="form-control" />
+                <span asp-validation-for="tasks.Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tasks.Description" class="control-label"></label>
+                <input asp-for="tasks.Description" class="form-control" />
+                <span asp-validation-for="tasks.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tasks.Status" class="control-label"></label>
+                <input asp-for="tasks.Status" class="form-control" />
+                <span asp-validation-for="tasks.Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tasks.Priority" class="control-label"></label>
+                <input asp-for="tasks.Priority" class="form-control" />
+                <span asp-validation-for="tasks.Priority" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tasks.Deadline" class="control-label"></label>
+                <input asp-for="tasks.Deadline" class="form-control" />
+                <span asp-validation-for="tasks.Deadline" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="p_id" class="control-label"></label>
+                <select asp-for="p_id" class="form-control">
+                    @foreach (var i in Model.projects)
+                    {
+                        <option value="@i.Id">@i.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="tasks.Deadline" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="te_id" class="control-label"></label>
+                <select asp-for="te_id" class="form-control">
+                    @foreach (var i in Model.teamMembers)
+                    {
+                        <option value="@i.Id">@i.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="tasks.Deadline" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,76 @@
+﻿@model  adel_Mostafa_w4_0523035.ViewModels.test
+
+@{
+    ViewData["Title"] = "details";
+}
+
+<h1>details</h1>
+
+<div>
+    <h4>Project</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.project.Id)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.project.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.project.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.project.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.project.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.project.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.project.StratDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.project.StratDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.project.EndDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.project.EndDate)
+        </dd>
+    </dl>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Task Title</th>
+            <th>Status</th>
+            <th>Priority</th>
+            <th>Dead Line</th>
+            <th>Team Member</th>
+            <th>Operation</th>
+        </tr>
+    </thead>
+    <tbody>
+            
+        @foreach(var i in Model.tasks)
+        {
+            <tr>
+                <td>@i.Title</td>
+                <td>@i.Status</td>
+                <td>@i.Priority</td>
+                <td>@i.Deadline</td>
+                     <td><a asp-controller="TeamMember" asp-action="detailss" asp-route-id="@i.teammember.Id">@i.teammember.Name</a></td>
+                <td>
+                    <a asp-controller="Tasks" asp-action="edit" asp-route-id="@i.Id">Update</a>
+                </td>
+                </tr>
+        }
+    </tbody>   
+</table>
+<div>
+    @Html.ActionLink("Edit", "edit", new { id = Model.project.Id }) |
+    <a asp-action="getall">Back to List</a>
+</div>

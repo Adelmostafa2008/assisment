@@ -1,0 +1,62 @@
+﻿@model adel_Mostafa_w4_0523035.ViewModels.teamTask
+
+@{
+    ViewData["Title"] = "details";
+}
+
+<h1>details</h1>
+
+<div>
+    <h4>TeamMember</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.team_member.Id)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.team_member.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.team_member.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.team_member.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.team_member.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.team_member.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.team_member.Role)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.team_member.Role)
+        </dd>
+    </dl>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Task Title</th>
+                <th>Status</th>
+                <th>Periority</th>
+                <th>Dead Line</th>
+                <th>Project</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var i in Model.tasks)
+            {
+               <tr>
+                   <td>@i.Title</td>
+                   <td>@i.Status</td>
+                   <td>@i.Priority</td>
+                   <td>@i.Deadline</td>
+                   <td>@i.project.Name</td>
+               </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
